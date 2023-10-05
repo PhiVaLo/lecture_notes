@@ -1,0 +1,68 @@
+-- SQLBook: Markup
+## Task: Using SQLite from CLI
+
+<!--
+_backgroundImage: "linear-gradient(to bottom, #67b8e3, #0288d1)"
+_color: white
+_header: 5 minutes
+-->
+
+Usually, SQLite databases are just files on disk (it supports in memory files too).
+
+- On the linux terminal, in the directory of this session, run the following two commands:
+  ```bash
+  sqlite3 /tmp/chirp.db < ./Chirp.SQLite/data/schema.sql
+  sqlite3 /tmp/chirp.db < ./Chirp.SQLite/data/dump.sql
+  ```
+
+- In Powershell:
+  ```powershell
+  cat SQL_FILE | sqlite3 DATABASE_FILE
+  
+  cat .\Chirp.SQLite\data\schema.sql | sqlite3 .\Chirp.SQLite\SQL\database\Chirp.db
+  cat .\Chirp.SQLite\data\dumb.sql | sqlite3 .\Chirp.SQLite\SQL\database\Chirp.db
+  ```
+
+  - OBS: The above is Bash syntax, i.e., use WSL on Windows not the command prompt.
+  - These commands create a database with the given schema (multiple SQL queries) and import data to it via multiple SQL queries. Look into the `.sql` files to see what they contain.
+  - The database is stored in the file `/tmp/chirp.db`
+- Check that the database file was created and is non-empty, e.g., via `ls -la`
+- Now, connect via the `sqlite3` executable to the database and execute a query:
+  - Connect to database: `sqlite3 /tmp/chirp.db` and execute the following two queries
+  - ```sql
+    SELECT COUNT(*) FROM message;
+    ```
+  - ```sql
+    SELECT message.*, user.* FROM message, user WHERE message.author_id = user.user_id;
+    ```
+- To leave the `sqlite3` program, either type `.exit` or `CTRL+D`
+-- SQLBook: Code
+drop table if exists user;
+create table user (
+  user_id integer primary key autoincrement,
+  username string not null,
+  email string not null
+);
+
+drop table if exists message;
+create table message (
+  message_id integer primary key autoincrement,
+  author_id integer not null,
+  text string not null,
+  pub_date integer
+);
+-- SQLBook: Code
+INSERT INTO user VALUES(1,'Helge','ropf@itu.dk');
+INSERT INTO user VALUES(2,'Rasmus','rnie@itu.dk');
+
+INSERT INTO message VALUES(1,1,'Hello, BDSA students!',1690892208);
+INSERT INTO message VALUES(2,2,'Hej, velkommen til kurset.',1690895308);
+-- SQLBook: Code
+SELECT COUNT(*) 
+FROM message;
+
+SELECT message.*, user.* 
+FROM message, user 
+WHERE message.author_id = user.user_id;
+-- SQLBook: Code
+PRAGMA database_list;

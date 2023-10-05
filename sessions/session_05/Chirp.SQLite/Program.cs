@@ -6,6 +6,10 @@ var sqlQuery = @"SELECT * FROM message ORDER by message.pub_date desc";
 
 using (var connection = new SqliteConnection($"Data Source={sqlDBFilePath}"))
 {
+var sqlQuery = @"SELECT * FROM message ORDER by message.pub_date desc";
+
+using (var connection = new SqliteConnection($"Data Source={sqlDBFilePath}"))
+{
     connection.Open();
 
     var command = connection.CreateCommand();

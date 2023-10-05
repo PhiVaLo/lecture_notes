@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "WPH5fipnDmMg6ESfqzQ/3f18nS63fnSxrPG8IVNg99cb/AKt5BLlwQCGNFBBlh70SR0XrXOShBIgEaFZAmW+LQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\PhiVa\\PhiVa Programs\\School Studies\\ITU - 2022\\Semester 3 - 2023-08-20\\Analysis, Design and Software Architecture\\lecture_notes\\sessions\\session_02\\bdsa_greeter\\bdsa_greeter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PhiVa\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.11\\microsoft.netcore.app.runtime.win-x64.7.0.11.nupkg.sha512",
+    "C:\\Users\\PhiVa\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\7.0.11\\microsoft.netcore.app.runtime.linux-x64.7.0.11.nupkg.sha512",
+    "C:\\Users\\PhiVa\\.nuget\\packages\\microsoft.netcore.app.runtime.osx-x64\\7.0.11\\microsoft.netcore.app.runtime.osx-x64.7.0.11.nupkg.sha512",
+    "C:\\Users\\PhiVa\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.11\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.11.nupkg.sha512",
+    "C:\\Users\\PhiVa\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.11\\microsoft.aspnetcore.app.runtime.win-x64.7.0.11.nupkg.sha512",
+    "C:\\Users\\PhiVa\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\7.0.11\\microsoft.aspnetcore.app.runtime.linux-x64.7.0.11.nupkg.sha512",
+    "C:\\Users\\PhiVa\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.osx-x64\\7.0.11\\microsoft.aspnetcore.app.runtime.osx-x64.7.0.11.nupkg.sha512",
+    "C:\\Users\\PhiVa\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\7.0.11\\microsoft.netcore.app.host.linux-x64.7.0.11.nupkg.sha512",
+    "C:\\Users\\PhiVa\\.nuget\\packages\\microsoft.netcore.app.host.osx-x64\\7.0.11\\microsoft.netcore.app.host.osx-x64.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
