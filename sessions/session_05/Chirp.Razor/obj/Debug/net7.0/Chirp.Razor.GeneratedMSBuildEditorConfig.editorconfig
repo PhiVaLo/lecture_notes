@@ -9,6 +9,7 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Chirp.Razor
 build_property.RootNamespace = Chirp.Razor
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\PhiVa\PhiVa Programs\School Studies\ITU - 2022\Semester 3 - 2023-08-20\Analysis, Design and Software Architecture\lecture_notes\sessions\session_05\Chirp.Razor\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
@@ -26,4 +27,23 @@ build_metadata.AdditionalFiles.CssScope =
 
 [c:/Users/PhiVa/PhiVa Programs/School Studies/ITU - 2022/Semester 3 - 2023-08-20/Analysis\, Design and Software Architecture/lecture_notes/sessions/session_05/Chirp.Razor/Pages/UserTimeline.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclRpbWVsaW5lLmNzaHRtbA==
+=======
+build_property.ProjectDir = /home/rasmusl/source/itu-bdsa-private/sessions/session_05/Chirp.Razor/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/rasmusl/source/itu-bdsa-private/sessions/session_05/Chirp.Razor
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/rasmusl/source/itu-bdsa-private/sessions/session_05/Chirp.Razor/Pages/Public.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHVibGljLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/rasmusl/source/itu-bdsa-private/sessions/session_05/Chirp.Razor/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/rasmusl/source/itu-bdsa-private/sessions/session_05/Chirp.Razor/Pages/UserTimeline.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlclRpbWVsaW5lLmNzaHRtbA==
+>>>>>>> a7e3f98f35850c3884b37fd56df466a3eed0630f
 build_metadata.AdditionalFiles.CssScope = 
